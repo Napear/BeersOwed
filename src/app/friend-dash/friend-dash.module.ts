@@ -4,6 +4,7 @@ import { FriendDashComponent } from './friend-dash.component';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import { FriendCardComponent } from './friend-card.component';
+import {MatCardModule} from '@angular/material/card';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { FriendCardComponent } from './friend-card.component';
   imports: [
     CommonModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule
   ],
   exports: [
     FriendDashComponent

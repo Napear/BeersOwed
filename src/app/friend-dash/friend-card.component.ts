@@ -5,6 +5,10 @@ import { Friend } from '../shared/friend.model';
   selector: 'beers-friend-card',
   templateUrl: './friend-card.component.html',
   styles: [
+    `.friend-card {
+        max-width: 120px;
+        margin: 10px
+    }`
   ],
 })
 export class FriendCardComponent implements OnInit {
