@@ -1,14 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FriendDashComponent } from './friend-dash.component';
-
+import {MatIconModule} from '@angular/material/icon';
 
 
 @NgModule({
   declarations: [FriendDashComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    MatIconModule
   ],
-  exports: [FriendDashComponent]
+  exports: [
+    FriendDashComponent,
+    MatIconModule
+  ]
 })
 export class FriendDashModule { }

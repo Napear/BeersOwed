@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { FriendDashModule } from './friend-dash/friend-dash.module';
 
+
 @NgModule({
   declarations: [
     AppComponent,
