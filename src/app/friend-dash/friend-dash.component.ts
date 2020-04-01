@@ -18,4 +18,7 @@ export class FriendDashComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  addFriend(){
+    console.log("[*] Add Clicked!")
+  }
 }
