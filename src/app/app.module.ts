@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './navbar/navbar.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { FriendDashModule } from './friend-dash/friend-dash.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    FriendDashModule
   ],
   providers: [],
   bootstrap: [AppComponent]
