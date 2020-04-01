@@ -1,4 +1,6 @@
 <div>
+  <beers-friend-card *ngFor="let friend of friends" [friend]="friend"></beers-friend-card>
+
   <button mat-fab class="fab-bottom-right" (click) = "addFriend()">
     <mat-icon>add</mat-icon>
   </button>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Friend } from '../shared/friend.model';
 
 @Component({
   selector: 'beers-friend-dash',
@@ -21,4 +22,15 @@ export class FriendDashComponent implements OnInit {
   addFriend(){
     console.log("[*] Add Clicked!")
   }
+
+  friends: Friend[] = [
+    {
+      firstName: "Heather",
+      beersOwed:-20
+    },
+    {
+      firstName: "Jack",
+      beersOwed: 10
+    }
+  ]
 }
