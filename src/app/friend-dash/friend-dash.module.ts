@@ -8,6 +8,7 @@ import { FriendDashComponent } from './friend-dash.component';
   declarations: [FriendDashComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [FriendDashComponent]
 })
 export class FriendDashModule { }
