@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FriendDashComponent } from './friend-dash.component';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [FriendDashComponent],
   imports: [
     CommonModule
   ]
