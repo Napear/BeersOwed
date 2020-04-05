@@ -1,0 +1,10 @@
+#bAddFreind {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.card {
+  width: 12rem;
+  height: 12rem;
+}
