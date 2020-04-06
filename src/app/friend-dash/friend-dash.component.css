@@ -1,4 +1,4 @@
-#bAddFreind {
+#addFriend {
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -7,4 +7,13 @@
 .card {
   width: 12rem;
   height: 12rem;
+}
+
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 12px;
+  text-align: center;
 }
